@@ -29,3 +29,7 @@ set shiftwidth=4
 set softtabstop=4
 set smartindent
 set autoindent
+
+"""NERDTree
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
