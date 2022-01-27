@@ -2,13 +2,11 @@
 
 After pulling repository, copy file contents or link it to into ~/.config/nvim 
 Following must be installed:
-
 ```bash
 sudo apt install neovim
 pip3 install --user neovim
 sudo apt install dos2unix # Necessary on WSL 
 ```
-
 Create an alias for vim to call nvim for better efficiency:
 ```bash
 echo alias vim='nvim' >> ~/.bashrc
