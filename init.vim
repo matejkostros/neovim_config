@@ -19,8 +19,16 @@ set wrap lbr
 set ruler
 set visualbell
 set mouse=a
+set cc=120
+hi ColorColumn ctermbg=lightgrey
 nmap j gj
 nmap k gk
+
+" Use ctrl-[hjkl] to select the active split!
+nmap <silent> <c-k> :wincmd k<CR>
+nmap <silent> <c-j> :wincmd j<CR>
+nmap <silent> <c-h> :wincmd h<CR>
+nmap <silent> <c-l> :wincmd l<CR>
 
 """ Tab settings
 set tabstop=4
